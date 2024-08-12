@@ -70,7 +70,7 @@ function Home() {
         </div> */}
         <div className="grid grid-rows-2 sm:grid-cols-2 sm:grid-rows-1 ">
             <div className="flex justify-center items-center">
-              <div className="pl-10 text-white flex justify-center items-center flex-col">
+              <div className="p-2 sm:pl-10 text-white flex justify-center items-center flex-col">
                 <h1 className="text-yellow text-3xl sm:text-4xl md:text-6xl text-center m-4 font-serif">TriviaCards Treasure !!
                 </h1>
                 <p className="text-center font-mono text-gray-400 text-lg">TriviaCards is a Fun sites , with varieties of FlashCards, Click them, or hover above them,
@@ -80,7 +80,7 @@ function Home() {
                 </div>
             </div>
             <div className="flex justify-center">
-            <img data-v-83bd8314="" src="https://app.svgator.com/assets/svgator.webapp/log-in-girl.svg" width="500" />
+            <img data-v-83bd8314="" src="https://app.svgator.com/assets/svgator.webapp/log-in-girl.svg" width="480" />
             </div>
         </div>
       </header>
