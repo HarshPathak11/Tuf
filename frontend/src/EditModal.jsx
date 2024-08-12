@@ -5,7 +5,7 @@ function EditModal({ card, onSave, onClose }) {
   const [answer, setAnswer] = useState(card.answer);
 
   const handleSave = async () => {
-    const resp = await fetch(`http://localhost:8000/change`, {
+    const resp = await fetch(`https://tuf-92e8.onrender.com/change`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

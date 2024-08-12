@@ -39,7 +39,7 @@ function Home() {
 
   React.useEffect(() => {
     async function getCard() {
-      const resp = await fetch("http://localhost:8000/getcards", {
+      const resp = await fetch("https://tuf-92e8.onrender.com/getcards", {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
